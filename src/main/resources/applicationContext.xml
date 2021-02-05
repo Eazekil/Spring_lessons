@@ -8,21 +8,6 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="com.nokhrin.springles"/>
 
-
     <context:property-placeholder location="classpath:musicPlayers.properties"/>
-    
-
-<!--    <bean id="musicBean"-->
-<!--          class="com.nokhrin.springles.ClassicalMusic"-->
-<!--    init-method="doMyInit"-->
-<!--    destroy-method="doMyDestroy"-->
-<!--    factory-method="getClassicalMusic">-->
-<!--    </bean>-->
-<!--    <bean id="musicPlayer"-->
-<!--    class="com.nokhrin.springles.MusicPlayer">-->
-<!--        <property name="music" ref="musicBean"/>-->
-<!--        <property name="name" value="${musicPlayer.name}"/>-->
-<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
-<!--    </bean>-->
 
 </beans>
